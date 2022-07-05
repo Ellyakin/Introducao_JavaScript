@@ -1,0 +1,33 @@
+ 
+ * {
+    font-family: "Open Sans", sans-serif;
+  }
+
+
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslateblue;
+    color: white;
+
+  }
+
+  button{
+    font-size: 10pt;
+    font-weight: bold;
+    align-items: center;
+    
+  }
+  
+  #tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  :checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }
